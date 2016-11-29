@@ -15,8 +15,6 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.platform = :ios
-  s.ios.deployment_target = '9.0'
   s.name         = "KVCardSelectionVC"
   s.version      = "1.0.0"
   s.summary      = "Awesome looking Dial like card selection ViewController"
@@ -42,7 +40,7 @@ DESC
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -67,7 +65,7 @@ DESC
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -93,7 +91,7 @@ DESC
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "KVCardSelectionVC/*.swift"
+  s.source_files  = "KVCardSelectionVC/**/*.swift"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -108,7 +106,7 @@ DESC
   #
 
   # s.resource  = "icon.png"
-  s.resources = "KVCardSelectionVC/*.{png,jpeg,jpg,storyboard,xib}"
+  s.resources = "KVCardSelectionVC/**/*.{png,jpeg,jpg,storyboard,xib}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
