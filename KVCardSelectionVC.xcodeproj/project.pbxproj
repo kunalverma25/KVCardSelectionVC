@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1139D700BB01AB69F3420218 /* Pods_KVCardSelectionVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7DA28CD7156ABA621F6DA6 /* Pods_KVCardSelectionVC.framework */; };
 		A337350F1DED7A960000F8A6 /* KVCardSelectionVC.h in Headers */ = {isa = PBXBuildFile; fileRef = A337350D1DED7A960000F8A6 /* KVCardSelectionVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A33735201DED89140000F8A6 /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33735171DED89140000F8A6 /* DialView.swift */; };
+		A33735211DED89140000F8A6 /* KVCardSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33735181DED89140000F8A6 /* KVCardSelectionCell.swift */; };
+		A33735221DED89140000F8A6 /* KVCardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33735191DED89140000F8A6 /* KVCardSelectionViewController.swift */; };
+		A33735231DED89140000F8A6 /* KVCardSelectionViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337351A1DED89140000F8A6 /* KVCardSelectionViewController+CollectionView.swift */; };
+		A33735241DED89140000F8A6 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337351B1DED89140000F8A6 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift */; };
+		A33735251DED89140000F8A6 /* KVCardSelectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337351C1DED89140000F8A6 /* KVCardSelectionViewFlowLayout.swift */; };
+		A33735261DED89140000F8A6 /* KVFocusedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337351D1DED89140000F8A6 /* KVFocusedCardView.swift */; };
+		A33735271DED89140000F8A6 /* PointerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337351E1DED89140000F8A6 /* PointerLayer.swift */; };
+		A33735281DED89140000F8A6 /* ShadowAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337351F1DED89140000F8A6 /* ShadowAttributes.swift */; };
+		A337352C1DED89390000F8A6 /* KVCardSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A337352A1DED89390000F8A6 /* KVCardSelectionCell.xib */; };
+		A337352D1DED89390000F8A6 /* KVFocusedCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A337352B1DED89390000F8A6 /* KVFocusedCardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BA86E949AB4411863CF5F80 /* Pods-KVCardSelectionVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVCardSelectionVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVCardSelectionVC/Pods-KVCardSelectionVC.release.xcconfig"; sourceTree = "<group>"; };
+		7F7DA28CD7156ABA621F6DA6 /* Pods_KVCardSelectionVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVCardSelectionVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A337350A1DED7A960000F8A6 /* KVCardSelectionVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVCardSelectionVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A337350D1DED7A960000F8A6 /* KVCardSelectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCardSelectionVC.h; sourceTree = "<group>"; };
 		A337350E1DED7A960000F8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A33735171DED89140000F8A6 /* DialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialView.swift; sourceTree = "<group>"; };
+		A33735181DED89140000F8A6 /* KVCardSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCardSelectionCell.swift; sourceTree = "<group>"; };
+		A33735191DED89140000F8A6 /* KVCardSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCardSelectionViewController.swift; sourceTree = "<group>"; };
+		A337351A1DED89140000F8A6 /* KVCardSelectionViewController+CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KVCardSelectionViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		A337351B1DED89140000F8A6 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KVCardSelectionViewController+JFFocusedCardViewDelegate.swift"; sourceTree = "<group>"; };
+		A337351C1DED89140000F8A6 /* KVCardSelectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVCardSelectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		A337351D1DED89140000F8A6 /* KVFocusedCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVFocusedCardView.swift; sourceTree = "<group>"; };
+		A337351E1DED89140000F8A6 /* PointerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointerLayer.swift; sourceTree = "<group>"; };
+		A337351F1DED89140000F8A6 /* ShadowAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowAttributes.swift; sourceTree = "<group>"; };
+		A337352A1DED89390000F8A6 /* KVCardSelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVCardSelectionCell.xib; sourceTree = "<group>"; };
+		A337352B1DED89390000F8A6 /* KVFocusedCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVFocusedCardView.xib; sourceTree = "<group>"; };
+		E51FF021494994D86BD03258 /* Pods-KVCardSelectionVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVCardSelectionVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVCardSelectionVC/Pods-KVCardSelectionVC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1139D700BB01AB69F3420218 /* Pods_KVCardSelectionVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A650FA186955356CE423C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F7DA28CD7156ABA621F6DA6 /* Pods_KVCardSelectionVC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C9F22E269E521F85461EF0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E51FF021494994D86BD03258 /* Pods-KVCardSelectionVC.debug.xcconfig */,
+				1BA86E949AB4411863CF5F80 /* Pods-KVCardSelectionVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A33735001DED7A960000F8A6 = {
 			isa = PBXGroup;
 			children = (
 				A337350C1DED7A960000F8A6 /* KVCardSelectionVC */,
 				A337350B1DED7A960000F8A6 /* Products */,
+				7C9F22E269E521F85461EF0B /* Pods */,
+				0A650FA186955356CE423C4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,8 +94,27 @@
 			children = (
 				A337350D1DED7A960000F8A6 /* KVCardSelectionVC.h */,
 				A337350E1DED7A960000F8A6 /* Info.plist */,
+				A33735171DED89140000F8A6 /* DialView.swift */,
+				A33735181DED89140000F8A6 /* KVCardSelectionCell.swift */,
+				A33735191DED89140000F8A6 /* KVCardSelectionViewController.swift */,
+				A337351A1DED89140000F8A6 /* KVCardSelectionViewController+CollectionView.swift */,
+				A337351B1DED89140000F8A6 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift */,
+				A337351C1DED89140000F8A6 /* KVCardSelectionViewFlowLayout.swift */,
+				A337351D1DED89140000F8A6 /* KVFocusedCardView.swift */,
+				A337351E1DED89140000F8A6 /* PointerLayer.swift */,
+				A337351F1DED89140000F8A6 /* ShadowAttributes.swift */,
+				A33735291DED89240000F8A6 /* Resources */,
 			);
 			path = KVCardSelectionVC;
+			sourceTree = "<group>";
+		};
+		A33735291DED89240000F8A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A337352A1DED89390000F8A6 /* KVCardSelectionCell.xib */,
+				A337352B1DED89390000F8A6 /* KVFocusedCardView.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,10 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A33735121DED7A960000F8A6 /* Build configuration list for PBXNativeTarget "KVCardSelectionVC" */;
 			buildPhases = (
+				390B330D002F010143CFA7B1 /* [CP] Check Pods Manifest.lock */,
 				A33735051DED7A960000F8A6 /* Sources */,
 				A33735061DED7A960000F8A6 /* Frameworks */,
 				A33735071DED7A960000F8A6 /* Headers */,
 				A33735081DED7A960000F8A6 /* Resources */,
+				137541778257DC455BC53861 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +163,7 @@
 					A33735091DED7A960000F8A6 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = B75YN3KWEL;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -122,16 +190,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A337352C1DED89390000F8A6 /* KVCardSelectionCell.xib in Resources */,
+				A337352D1DED89390000F8A6 /* KVFocusedCardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137541778257DC455BC53861 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KVCardSelectionVC/Pods-KVCardSelectionVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		390B330D002F010143CFA7B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A33735051DED7A960000F8A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A33735221DED89140000F8A6 /* KVCardSelectionViewController.swift in Sources */,
+				A33735201DED89140000F8A6 /* DialView.swift in Sources */,
+				A33735251DED89140000F8A6 /* KVCardSelectionViewFlowLayout.swift in Sources */,
+				A33735271DED89140000F8A6 /* PointerLayer.swift in Sources */,
+				A33735261DED89140000F8A6 /* KVFocusedCardView.swift in Sources */,
+				A33735241DED89140000F8A6 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift in Sources */,
+				A33735211DED89140000F8A6 /* KVCardSelectionCell.swift in Sources */,
+				A33735281DED89140000F8A6 /* ShadowAttributes.swift in Sources */,
+				A33735231DED89140000F8A6 /* KVCardSelectionViewController+CollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +351,9 @@
 		};
 		A33735131DED7A960000F8A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51FF021494994D86BD03258 /* Pods-KVCardSelectionVC.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B75YN3KWEL;
@@ -252,13 +366,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kunal.KVCardSelectionVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		A33735141DED7A960000F8A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BA86E949AB4411863CF5F80 /* Pods-KVCardSelectionVC.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = B75YN3KWEL;
@@ -294,6 +411,7 @@
 				A33735141DED7A960000F8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
