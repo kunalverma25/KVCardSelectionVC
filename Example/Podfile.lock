@@ -1,0 +1,27 @@
+PODS:
+  - Kingfisher (3.2.1)
+  - KVCardSelectionVC (1.0.0):
+    - Kingfisher (~> 3.2)
+    - Try (~> 2.0)
+  - Try (2.0.0)
+
+DEPENDENCIES:
+  - KVCardSelectionVC (from `https://github.com/kunalverma25/KVCardSelectionVC.git`)
+
+EXTERNAL SOURCES:
+  KVCardSelectionVC:
+    :git: https://github.com/kunalverma25/KVCardSelectionVC.git
+
+CHECKOUT OPTIONS:
+  KVCardSelectionVC:
+    :commit: 68d832258a64dc40a76f96d90b38494bd038fae6
+    :git: https://github.com/kunalverma25/KVCardSelectionVC.git
+
+SPEC CHECKSUMS:
+  Kingfisher: 64ef28c6d3d6f344e3ae2d7f5c9da80439505d99
+  KVCardSelectionVC: 7d8e5acb996f14dcec8b3820fef39991d81f8ad7
+  Try: 4ea64206b933ff7136155b3dd41921f029db01e3
+
+PODFILE CHECKSUM: 4b5857208b5fea4d12beb40dd88809098ce03de6
+
+COCOAPODS: 1.1.0.rc.2
