@@ -3,7 +3,7 @@
 //  CollectionView
 //
 //  Created by Kunal Verma on 29/11/16.
-//  Copyright © 2016 Videocon. All rights reserved.
+//  Copyright © 2016 Kunal Verma. All rights reserved.
 //
 
 import UIKit
