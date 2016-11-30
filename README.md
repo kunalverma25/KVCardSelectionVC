@@ -147,8 +147,8 @@ extension User: CardPresentable {
 
 #### CocoaPods
 
-#### Dependencies
-Check Example for the same.
+#### Example
+Check Example Folder for the same.
 
 #### Dependencies
 KVCardSelectionVC has dependencies on pod 'Try' and pod 'Kingfisher'
