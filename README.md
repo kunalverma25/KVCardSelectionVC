@@ -152,9 +152,15 @@ Check Example Folder for the same.
 
 #### Dependencies
 KVCardSelectionVC has dependencies on pod 'Try' and pod 'Kingfisher'
+
 Try is used for handling NSExceptions which swift cannot handle.
+
 Kingfisher is used for Image downloading and cache.
+
 The max size of cache is 50 Mb and cache expiry is one week.
+
+#### Images Not Showing/Downloading
+Quick Fix - Add Allow Arbitrary Loads to your project's Info.plist
 
 License
 -------
