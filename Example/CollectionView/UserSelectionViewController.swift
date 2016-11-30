@@ -3,7 +3,7 @@
 //  KVCardSelectionVC
 //
 //  Created by Kunal Verma on 29/11/16.
-//  Copyright © 2016 Videocon. All rights reserved.
+//  Copyright © 2016 Kunal Verma. All rights reserved.
 //
 
 import UIKit
@@ -247,10 +247,10 @@ extension User: CardPresentable {
         return name
     }
     
-    var dialLabel: String {
-        guard let lastString = titleText.components(separatedBy: " ").last else { return "" }
-        return String(lastString[lastString.startIndex])
-    }
+//    var dialLabel: String {
+//        guard let lastString = titleText.components(separatedBy: " ").last else { return "" }
+//        return String(lastString[lastString.startIndex])
+//    }
     
     var detailTextLineOne: String {
         return address
