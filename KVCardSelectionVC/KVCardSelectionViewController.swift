@@ -50,7 +50,7 @@ public protocol CardPresentable {
     var imageURLString: String { get }
     var placeholderImage: UIImage? { get }
     var titleText: String { get }
-    var dialLabel: String { get }
+    //var dialLabel: String { get }
     var detailTextLineOne: String { get }
     var detailTextLineTwo: String { get }
     var actionOne: CardAction? { get }
@@ -491,15 +491,15 @@ open class KVCardSelectionViewController: UIViewController {
         rotation = (offset.x / w)
         bottomCircleOutlineView.transform = CGAffineTransform(rotationAngle: rotation)
         
-        let collectionViewCenterX = collectionView.center.x
-        for item in collectionView.visibleCells {
-            guard let cardCell = item as? KVCardSelectionCell else { return }
-            let cardPosition = view.convert(cardCell.center, from: collectionView)
-            if cardPosition.x <= collectionViewCenterX + 20 && cardPosition.x >= collectionViewCenterX - 20 {
-                guard let label = cardCell.card?.dialLabel else { return }
-                dialView.rotatePointerToLabel(label)
-            }
-        }
+//        let collectionViewCenterX = collectionView.center.x
+//        for item in collectionView.visibleCells {
+//            guard let cardCell = item as? KVCardSelectionCell else { return }
+//            let cardPosition = view.convert(cardCell.center, from: collectionView)
+//            if cardPosition.x <= collectionViewCenterX + 20 && cardPosition.x >= collectionViewCenterX - 20 {
+//                guard let label = cardCell.card?.dialLabel else { return }
+//                dialView.rotatePointerToLabel(label)
+//            }
+//        }
     }
     
 }
