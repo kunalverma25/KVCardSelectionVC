@@ -38,15 +38,6 @@ class UserSelectionViewController: KVCardSelectionViewController {
         reloadData()
     }
     
-    //    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
-    //        if segue.identifier == "ShowUserDetailVC" {
-    //            guard let indexPath = sender as? IndexPath else { return }
-    //            let user = cards[(indexPath as NSIndexPath).row]
-    //            let userDetailVC = segue.destination as? UserDetailViewController
-    //            userDetailVC?.user = user
-    //        }
-    //    }
-    
 }
 
 extension UserSelectionViewController: KVCardSelectionViewControllerDataSource {
@@ -74,7 +65,7 @@ extension UserSelectionViewController: KVCardSelectionViewControllerDelegate {
     }
     
     func cardSelectionViewController(_ cardSelectionViewController: KVCardSelectionViewController, didSelectDetailActionForCardAtIndexPath indexPath: IndexPath) {
-        performSegue(withIdentifier: "ShowUserDetailVC", sender: indexPath)
+        print("CARD SELECTED for \(indexPath)")
     }
     
 }
