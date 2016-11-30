@@ -38,8 +38,8 @@ class UserSelectionViewController: KVCardSelectionViewController {
         // Set the delegate so that `KVCardSelectionViewController` can notify the `delegate` of events that take place on the focused CardPresentable.
         delegate = self
         
-        // Set the desired `KVCardSelectionViewSelectionAnimationStyle` to either `.Slide` or `.Fade`. Defaults to `.Fade`.
-        selectionAnimationStyle = .Slide
+        // Set the desired `KVCardSelectionViewSelectionAnimationStyle` to either `.slide` or `.fade`. Defaults to `.fade`.
+        selectionAnimationStyle = .slide
         
         // Call up to super after configuring your subclass of `KVCardSelectionViewController`. Calling super before configuring will cause undesirable side effects.
         super.viewDidLoad()
@@ -53,7 +53,7 @@ class UserSelectionViewController: KVCardSelectionViewController {
         NOTE: If you are displaying an instance of `KVCardSelectionViewController` within a `UINavigationController`, you can use the code below to hide the navigation bar. This isn't required to use `KVCardSelectionViewController`, but `KVCardSelectionViewController` was designed to be used without a UINavigationBar.
         let image = UIImage()
         let navBar = navigationController?.navigationBar
-        navBar?.setBackgroundImage(image, forBarMetrics: .Default)
+        navBar?.setBackgroundImage(image, for: .default)
         navBar?.shadowImage = image
         */
         
@@ -73,29 +73,28 @@ class UserSelectionViewController: KVCardSelectionViewController {
 Second, conform to the `KVCardSelectionViewControllerDelegate` and `KVCardSelectionViewControllerDataSource` protocols so that you can provide the CardPresentable data to the `KVCardSelectionViewController` and to receive callbacks of touch events in the action buttons.
 ```swift
 extension UserSelectionViewController: KVCardSelectionViewControllerDataSource {
-    
-    func numberOfCardsForCardSelectionViewController(cardSelectionViewController: KVCardSelectionViewController) -> Int {
-        return cards?.count ?? 0
+    public func cardSelectionViewController(_ cardSelectionViewController: KVCardSelectionViewController, cardForItemAtIndexPath indexPath: IndexPath) -> CardPresentable {
+        return cards[indexPath.row]
     }
     
-    func cardSelectionViewController(cardSelectionViewController: KVCardSelectionViewController, cardForItemAtIndexPath indexPath: NSIndexPath) -> CardPresentable {
-        return cards?[indexPath.row] ?? User(name: "", photoURL: "", address: "", city: "", state: "", zip: 0)
+    
+    func numberOfCardsForCardSelectionViewController(_ cardSelectionViewController: KVCardSelectionViewController) -> Int {
+        return cards.count
     }
     
 }
 
 extension UserSelectionViewController: KVCardSelectionViewControllerDelegate {
     
-    func cardSelectionViewController(cardSelectionViewController: KVCardSelectionViewController, didSelectCardAction cardAction: CardAction, forCardAtIndexPath indexPath: NSIndexPath) {
-        guard let card = cards?[indexPath.row] else { return }
-        if let action = card.actionOne where action.title == cardAction.title {
+    func cardSelectionViewController(_ cardSelectionViewController: KVCardSelectionViewController, didSelectCardAction cardAction: CardAction, forCardAtIndexPath indexPath: IndexPath) {
+        let card = cards[(indexPath as NSIndexPath).row]
+        if let action = card.actionOne , action.title == cardAction.title {
             print("----------- \nCard action fired! \nAction Title: \(cardAction.title) \nIndex Path: \(indexPath)")
         }
-        if let action = card.actionTwo where action.title == cardAction.title {
+        if let action = card.actionTwo , action.title == cardAction.title {
             print("----------- \nCard action fired! \nAction Title: \(cardAction.title) \nIndex Path: \(indexPath)")
         }
     }
-    
 }
 ```
 
