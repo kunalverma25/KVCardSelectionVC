@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KVCardSelectionVCExample' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for KVCardSelectionVCExample
+  pod 'KVCardSelectionVC', :git=>'https://github.com/kunalverma25/KVCardSelectionVC.git'
+
+end

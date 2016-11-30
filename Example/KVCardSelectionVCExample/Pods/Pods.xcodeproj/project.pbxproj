@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0070E531F668D07E44A196D5E2F13B34 /* KVCardSelectionVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 187FA85369366BB3D18CCC0CE3D28020 /* KVCardSelectionVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01E3D8D9225BCB3634ED89D35159BC5C /* KVCardSelectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93324C96C023661BE41971614926A31 /* KVCardSelectionViewFlowLayout.swift */; };
+		078F855834ADA59A413A0ACC5247BCC1 /* Try.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2BC0550D1E665055B15296B17AE470 /* Try.framework */; };
+		095CDE8542FB26E91AC65703C45C58C8 /* WBTry.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EF42B4535FC43A22BACB878DC79D3C /* WBTry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1510BD0F8CF48683F493D0DC28B2D8E4 /* Try-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C56C482010E895F0F4DF4008AB478B62 /* Try-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A42F40D3CF25236E75019F542B0893 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A0D743774654C9204D245EE05965AF6 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D05F50B000723F8CBA45529AE7EBDA /* Resource.swift */; };
+		2C5C58DA04002590FAF9B4B03144227B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5765AA968DA97EE66C429144B157B3CC /* Foundation.framework */; };
+		2F5A5C7AC98FD014FE483F8839C409EE /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FE36C045FE14C7484514674722D4FD /* CacheSerializer.swift */; };
+		2FE4527878E69AC71373445DD134C6AA /* KVCardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C77D5FDB31E93EC57B1AA106DFBABA4 /* KVCardSelectionViewController.swift */; };
+		33AEC28E1D24EACF5278AB582BFD9CF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5765AA968DA97EE66C429144B157B3CC /* Foundation.framework */; };
+		3BB2F41D6AC3DE89D4CEDD26BCA8AA18 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5DC93696BC082B1B9BCB65611F4C83 /* AnimatedImageView.swift */; };
+		3D1E9B7C85FB9003719F2760CD3FA8A6 /* WBTry.m in Sources */ = {isa = PBXBuildFile; fileRef = F974B9EE4295202D65C3C2B80A8CE7A0 /* WBTry.m */; };
+		3E1D52318F691D53142EF232CA98042F /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B0EAA0110564533A8BD0ABD5D1D5 /* ImageTransition.swift */; };
+		40554415DA43CEDDC57474D689EAD99F /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BC8F6D3A12B655FDD4A2A686CB999 /* UIButton+Kingfisher.swift */; };
+		43D6C3F5F8E90771DEBF166207E60666 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937A620CBBC827A19A52BBA616B38963 /* ImageProcessor.swift */; };
+		456ECBCCFF2C6D13F2DC514705E6C1BF /* Pods-KVCardSelectionVCExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 420B70CEAF486D0DA3A0792DA815200D /* Pods-KVCardSelectionVCExample-dummy.m */; };
+		4578258C134F8A38E0CED7188455293B /* DialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5684C1ED087A0F38E6E925B313E5BC3E /* DialView.swift */; };
+		4956C286F2D7843F0AA7E5456D7A8CCC /* KVCardSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60B2E1FA28072AC38DDC1D9037070151 /* KVCardSelectionCell.xib */; };
+		4E8607AAEA9A71567CC8C1FF9D062DAC /* KVCardSelectionViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31343898A54C2BBDFC162C1970C9347E /* KVCardSelectionViewController+CollectionView.swift */; };
+		542ECCCFC91F7A7119FEF23F870A4230 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A15EC079CF745DBBCF4E9251BCEFEBE /* Box.swift */; };
+		56A3E82290A6858388CB981151E091A5 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591198F24288E8DB1CDA838C36B45F0 /* Filter.swift */; };
+		576F6097B671FB2BF7759DD54E17D28C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FED37B25B5FA9745BD29783ED90B05 /* ThreadHelper.swift */; };
+		66140D9E07108FD80E9DEA01FB2FE645 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79CD6A76DCAEB95BE8F5B7FB0F52293 /* Indicator.swift */; };
+		67A64EFCBC25D228BFD1A4CDF6DEE1D0 /* trap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427E89739773CE68735835BBA379B002 /* trap.swift */; };
+		775B87BDA41F8A581D34B7B5DF51AC22 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A27ED5AE1F2E116AD18071923CFA1A2D /* Kingfisher-dummy.m */; };
+		7CCF8A451663F39CC166D841C03C4FB2 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AED95DBED17380402E913997B52F4B /* String+MD5.swift */; };
+		7E0C352C6923952163C04B829455A5FD /* KVFocusedCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277A2985C0C2E91635D01013D8B014B9 /* KVFocusedCardView.xib */; };
+		8211B5452C89840FBFC7647359EE75B0 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951720FFD9882C488FEDE0804CEA3496 /* ImageDownloader.swift */; };
+		8FCE3557E50BD484BFE783CA2820D7A1 /* Try-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9C952464C563A0F7A8586A16784F4 /* Try-dummy.m */; };
+		92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D8BA6C69CBAA25C414A1AF9CF991CA /* CFNetwork.framework */; };
+		957C0C65C9B31B64CADD6022BC3DDD58 /* RequrstModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90954301C18D301384ED78C37179E45B /* RequrstModifier.swift */; };
+		9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5765AA968DA97EE66C429144B157B3CC /* Foundation.framework */; };
+		A44AA4BAF0C45D001A63B9ECBCE66CE4 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D40354F700D2019D61B370E14565B2A5 /* Kingfisher.framework */; };
+		A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16CA004D9EB28F677DE185F8F9246B98 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A910991F21C88D706CAFAC235490EC1B /* ShadowAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48E4641DCD4A1C9CDBD4369D65FEA9 /* ShadowAttributes.swift */; };
+		B0D70AA0C7F9480F5D561A5C16D2B244 /* Pods-KVCardSelectionVCExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DEFC202C11AB9BF47B10D811BBD938 /* Pods-KVCardSelectionVCExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB9501036883239F767427151681CBF /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256FCFBA29B37B2051B406EB74DDEF1 /* ImageView+Kingfisher.swift */; };
+		BF8C46D607B40280C08558CC53A103F9 /* PointerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4495F85C15D066079C86209F772C16A /* PointerLayer.swift */; };
+		C6B4E4BE9E653E719CF1183564335D24 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2CBC655B6AE735A64BC106A27FF519 /* KingfisherManager.swift */; };
+		C836DA335510AE95D8223BBA0D0AE054 /* KVCardSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6602CD4B820B6413EEF570D3BCA8CC0 /* KVCardSelectionCell.swift */; };
+		D69B13406807EEA4DC1E8F19D02DF509 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D052F67DA287D37655F2206F21C73 /* KingfisherOptionsInfo.swift */; };
+		D953C5619E790A12F6D687EB18697017 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3DDF0BCB7F83DAD2B3CEF21BBFADA0 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift */; };
+		DBE99D60F85AC315A6A72181E3B3FA99 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D61CD419979AB503A4F3469038D2A3 /* Image.swift */; };
+		DD926E7A49BFD9ECCCB3289DF22778E6 /* KVCardSelectionVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC4EFEF63F83F50652CF9C64BA59D1F /* KVCardSelectionVC-dummy.m */; };
+		E68C478E9E471F685966CFB71A32A956 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B651B44F38C8CF242481006BF9C34D /* ImagePrefetcher.swift */; };
+		EB801B4773127C25CB39D2485031F816 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8AEC87E99A973D192236BCC4E8F14D /* ImageCache.swift */; };
+		F193C5394E96BB3155CF96706D838034 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7A5ECCD8BB06F7DBC80AA882EB3B8 /* Kingfisher.swift */; };
+		F96057DA343E3ADAD51BBFEEDAB544BB /* KVFocusedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6377ECB942524148C34AAF8F29FA5581 /* KVFocusedCardView.swift */; };
+		F9CBABFDDAC5DAF23F6F364508144D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5765AA968DA97EE66C429144B157B3CC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		750FEED6AE2C270FE20458E3CA3FE0DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4285678BD59C27FAD9615F4708E32161;
+			remoteInfo = Try;
+		};
+		95D1196DF22E2E64578B947E991DB7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4944FEC314D1A66588651D006273ADE;
+			remoteInfo = Kingfisher;
+		};
+		AD9DB4608101DCD385F53268F2736187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4944FEC314D1A66588651D006273ADE;
+			remoteInfo = Kingfisher;
+		};
+		D9B9979F53DD91E577CE1A1107671F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30B3059572817E65D2A8F09200A049F;
+			remoteInfo = KVCardSelectionVC;
+		};
+		E5D8FB65A9FB91BE6CC5415EDCFC2E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4285678BD59C27FAD9615F4708E32161;
+			remoteInfo = Try;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0652D7182B914C844A80730078B34216 /* Pods-KVCardSelectionVCExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KVCardSelectionVCExample.modulemap"; sourceTree = "<group>"; };
+		0B2BC0550D1E665055B15296B17AE470 /* Try.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Try.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1256FCFBA29B37B2051B406EB74DDEF1 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		16CA004D9EB28F677DE185F8F9246B98 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		16E03A688AF40B594B28DEBD7500947E /* Pods-KVCardSelectionVCExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVCardSelectionVCExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17FEE2EE3575EF1137F7726E851A5F8D /* Pods-KVCardSelectionVCExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVCardSelectionVCExample.debug.xcconfig"; sourceTree = "<group>"; };
+		187FA85369366BB3D18CCC0CE3D28020 /* KVCardSelectionVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVCardSelectionVC-umbrella.h"; sourceTree = "<group>"; };
+		189EE9C3E8A56824EB3BD925974EB442 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DEFC202C11AB9BF47B10D811BBD938 /* Pods-KVCardSelectionVCExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVCardSelectionVCExample-umbrella.h"; sourceTree = "<group>"; };
+		1DF22AC0318B93AB0806EE0E9649D927 /* Pods-KVCardSelectionVCExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVCardSelectionVCExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		2277243F46A8F9BB5F3016C06F800F68 /* Pods-KVCardSelectionVCExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVCardSelectionVCExample-resources.sh"; sourceTree = "<group>"; };
+		277A2985C0C2E91635D01013D8B014B9 /* KVFocusedCardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KVFocusedCardView.xib; path = KVCardSelectionVC/KVFocusedCardView.xib; sourceTree = "<group>"; };
+		28C5B600947E13B4A7DAEF9F8E2CF646 /* KVCardSelectionVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVCardSelectionVC.framework; path = KVCardSelectionVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3DDF0BCB7F83DAD2B3CEF21BBFADA0 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVCardSelectionViewController+JFFocusedCardViewDelegate.swift"; path = "KVCardSelectionVC/KVCardSelectionViewController+JFFocusedCardViewDelegate.swift"; sourceTree = "<group>"; };
+		31343898A54C2BBDFC162C1970C9347E /* KVCardSelectionViewController+CollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "KVCardSelectionViewController+CollectionView.swift"; path = "KVCardSelectionVC/KVCardSelectionViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		3141419F4FE719694C28CBC39636DA24 /* KVCardSelectionVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVCardSelectionVC.modulemap; sourceTree = "<group>"; };
+		31D05F50B000723F8CBA45529AE7EBDA /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		31FE36C045FE14C7484514674722D4FD /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		3541F6E7FF89DC651C86364F3E1CB1B6 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		358D052F67DA287D37655F2206F21C73 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		420B70CEAF486D0DA3A0792DA815200D /* Pods-KVCardSelectionVCExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVCardSelectionVCExample-dummy.m"; sourceTree = "<group>"; };
+		427E89739773CE68735835BBA379B002 /* trap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = trap.swift; path = Try/trap.swift; sourceTree = "<group>"; };
+		476432EDDC7EB3DD51B166BBE91C7780 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		47A7A5ECCD8BB06F7DBC80AA882EB3B8 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		5684C1ED087A0F38E6E925B313E5BC3E /* DialView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DialView.swift; path = KVCardSelectionVC/DialView.swift; sourceTree = "<group>"; };
+		5765AA968DA97EE66C429144B157B3CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A5DC93696BC082B1B9BCB65611F4C83 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		5C77D5FDB31E93EC57B1AA106DFBABA4 /* KVCardSelectionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVCardSelectionViewController.swift; path = KVCardSelectionVC/KVCardSelectionViewController.swift; sourceTree = "<group>"; };
+		60B2E1FA28072AC38DDC1D9037070151 /* KVCardSelectionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KVCardSelectionCell.xib; path = KVCardSelectionVC/KVCardSelectionCell.xib; sourceTree = "<group>"; };
+		61FED37B25B5FA9745BD29783ED90B05 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		6377ECB942524148C34AAF8F29FA5581 /* KVFocusedCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVFocusedCardView.swift; path = KVCardSelectionVC/KVFocusedCardView.swift; sourceTree = "<group>"; };
+		6CB9F00296D5CF9334E1D8893AF998A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ED9C952464C563A0F7A8586A16784F4 /* Try-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Try-dummy.m"; sourceTree = "<group>"; };
+		7FE2E51B99197DAFC80780C29F4A548C /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		872BC8F6D3A12B655FDD4A2A686CB999 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		88D8BA6C69CBAA25C414A1AF9CF991CA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8A15EC079CF745DBBCF4E9251BCEFEBE /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		8A2CBC655B6AE735A64BC106A27FF519 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		8D1B1E9D38CA0C130BA6F56369526663 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		90954301C18D301384ED78C37179E45B /* RequrstModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequrstModifier.swift; path = Sources/RequrstModifier.swift; sourceTree = "<group>"; };
+		90A4B0EAA0110564533A8BD0ABD5D1D5 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		92BEDDD25CF0C32A1BB2DE0AD3D9023F /* Try.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Try.framework; path = Try.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937A620CBBC827A19A52BBA616B38963 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B651B44F38C8CF242481006BF9C34D /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		951720FFD9882C488FEDE0804CEA3496 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		A05615096711D98E816652999592F132 /* Pods-KVCardSelectionVCExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVCardSelectionVCExample.release.xcconfig"; sourceTree = "<group>"; };
+		A12B9685E9BEEA42DCC968436D69B346 /* Try.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Try.modulemap; sourceTree = "<group>"; };
+		A27ED5AE1F2E116AD18071923CFA1A2D /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		A6602CD4B820B6413EEF570D3BCA8CC0 /* KVCardSelectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVCardSelectionCell.swift; path = KVCardSelectionVC/KVCardSelectionCell.swift; sourceTree = "<group>"; };
+		AB12A09474E57BC82A448B09364E642A /* KVCardSelectionVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVCardSelectionVC.xcconfig; sourceTree = "<group>"; };
+		B5AED95DBED17380402E913997B52F4B /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		B76B882504418DA61387E4131381B893 /* Try.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Try.xcconfig; sourceTree = "<group>"; };
+		BFC4EFEF63F83F50652CF9C64BA59D1F /* KVCardSelectionVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVCardSelectionVC-dummy.m"; sourceTree = "<group>"; };
+		C3CE7862BAD932E19DB845D51BC09E84 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4495F85C15D066079C86209F772C16A /* PointerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerLayer.swift; path = KVCardSelectionVC/PointerLayer.swift; sourceTree = "<group>"; };
+		C56C482010E895F0F4DF4008AB478B62 /* Try-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Try-umbrella.h"; sourceTree = "<group>"; };
+		CE772C18A42E4EBCFE43A515732671F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8AEC87E99A973D192236BCC4E8F14D /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		D0AA491AC441B7E3F135A9CEC131041B /* Try-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Try-prefix.pch"; sourceTree = "<group>"; };
+		D40354F700D2019D61B370E14565B2A5 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A42F40D3CF25236E75019F542B0893 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		E591198F24288E8DB1CDA838C36B45F0 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		EA38475DA5A5D905D783651F0EA360E0 /* Pods_KVCardSelectionVCExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KVCardSelectionVCExample.framework; path = "Pods-KVCardSelectionVCExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFC857D3A2A13669E525F05FB3F0DC8 /* Pods-KVCardSelectionVCExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVCardSelectionVCExample-frameworks.sh"; sourceTree = "<group>"; };
+		EF48E4641DCD4A1C9CDBD4369D65FEA9 /* ShadowAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShadowAttributes.swift; path = KVCardSelectionVC/ShadowAttributes.swift; sourceTree = "<group>"; };
+		F4EF42B4535FC43A22BACB878DC79D3C /* WBTry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBTry.h; path = Try/WBTry.h; sourceTree = "<group>"; };
+		F6D61CD419979AB503A4F3469038D2A3 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		F79CD6A76DCAEB95BE8F5B7FB0F52293 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		F93324C96C023661BE41971614926A31 /* KVCardSelectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVCardSelectionViewFlowLayout.swift; path = KVCardSelectionVC/KVCardSelectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		F974B9EE4295202D65C3C2B80A8CE7A0 /* WBTry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WBTry.m; path = Try/WBTry.m; sourceTree = "<group>"; };
+		F9A0324F64F77599C7BE4964AF84A3C8 /* KVCardSelectionVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVCardSelectionVC-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D31F0DA5A14C216C042F0CDFCF3B5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AEC28E1D24EACF5278AB582BFD9CF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C623500EBBD328FA327269D6563F187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5C58DA04002590FAF9B4B03144227B /* Foundation.framework in Frameworks */,
+				A44AA4BAF0C45D001A63B9ECBCE66CE4 /* Kingfisher.framework in Frameworks */,
+				078F855834ADA59A413A0ACC5247BCC1 /* Try.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840198A5A1973323D3D4E274C205FB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CBABFDDAC5DAF23F6F364508144D96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */,
+				9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2DB5FD58006B5149F46FA374ED0C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2E51B99197DAFC80780C29F4A548C /* Kingfisher.framework */,
+				28C5B600947E13B4A7DAEF9F8E2CF646 /* KVCardSelectionVC.framework */,
+				EA38475DA5A5D905D783651F0EA360E0 /* Pods_KVCardSelectionVCExample.framework */,
+				92BEDDD25CF0C32A1BB2DE0AD3D9023F /* Try.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18318AEB6294270F886CFF96CC67AF48 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				5A5DC93696BC082B1B9BCB65611F4C83 /* AnimatedImageView.swift */,
+				8A15EC079CF745DBBCF4E9251BCEFEBE /* Box.swift */,
+				31FE36C045FE14C7484514674722D4FD /* CacheSerializer.swift */,
+				E591198F24288E8DB1CDA838C36B45F0 /* Filter.swift */,
+				F6D61CD419979AB503A4F3469038D2A3 /* Image.swift */,
+				CF8AEC87E99A973D192236BCC4E8F14D /* ImageCache.swift */,
+				951720FFD9882C488FEDE0804CEA3496 /* ImageDownloader.swift */,
+				93B651B44F38C8CF242481006BF9C34D /* ImagePrefetcher.swift */,
+				937A620CBBC827A19A52BBA616B38963 /* ImageProcessor.swift */,
+				90A4B0EAA0110564533A8BD0ABD5D1D5 /* ImageTransition.swift */,
+				1256FCFBA29B37B2051B406EB74DDEF1 /* ImageView+Kingfisher.swift */,
+				F79CD6A76DCAEB95BE8F5B7FB0F52293 /* Indicator.swift */,
+				D7A42F40D3CF25236E75019F542B0893 /* Kingfisher.h */,
+				47A7A5ECCD8BB06F7DBC80AA882EB3B8 /* Kingfisher.swift */,
+				8A2CBC655B6AE735A64BC106A27FF519 /* KingfisherManager.swift */,
+				358D052F67DA287D37655F2206F21C73 /* KingfisherOptionsInfo.swift */,
+				90954301C18D301384ED78C37179E45B /* RequrstModifier.swift */,
+				31D05F50B000723F8CBA45529AE7EBDA /* Resource.swift */,
+				B5AED95DBED17380402E913997B52F4B /* String+MD5.swift */,
+				61FED37B25B5FA9745BD29783ED90B05 /* ThreadHelper.swift */,
+				872BC8F6D3A12B655FDD4A2A686CB999 /* UIButton+Kingfisher.swift */,
+				E1B899FBE92527B7C64F4844E15A4D0C /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		1BCC54F206215E930A942D385058F99D /* Pods-KVCardSelectionVCExample */ = {
+			isa = PBXGroup;
+			children = (
+				CE772C18A42E4EBCFE43A515732671F1 /* Info.plist */,
+				0652D7182B914C844A80730078B34216 /* Pods-KVCardSelectionVCExample.modulemap */,
+				16E03A688AF40B594B28DEBD7500947E /* Pods-KVCardSelectionVCExample-acknowledgements.markdown */,
+				1DF22AC0318B93AB0806EE0E9649D927 /* Pods-KVCardSelectionVCExample-acknowledgements.plist */,
+				420B70CEAF486D0DA3A0792DA815200D /* Pods-KVCardSelectionVCExample-dummy.m */,
+				EDFC857D3A2A13669E525F05FB3F0DC8 /* Pods-KVCardSelectionVCExample-frameworks.sh */,
+				2277243F46A8F9BB5F3016C06F800F68 /* Pods-KVCardSelectionVCExample-resources.sh */,
+				18DEFC202C11AB9BF47B10D811BBD938 /* Pods-KVCardSelectionVCExample-umbrella.h */,
+				17FEE2EE3575EF1137F7726E851A5F8D /* Pods-KVCardSelectionVCExample.debug.xcconfig */,
+				A05615096711D98E816652999592F132 /* Pods-KVCardSelectionVCExample.release.xcconfig */,
+			);
+			name = "Pods-KVCardSelectionVCExample";
+			path = "Target Support Files/Pods-KVCardSelectionVCExample";
+			sourceTree = "<group>";
+		};
+		1CAA591BABFCFEF034883D521337B041 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60B2E1FA28072AC38DDC1D9037070151 /* KVCardSelectionCell.xib */,
+				277A2985C0C2E91635D01013D8B014B9 /* KVFocusedCardView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4671220740335DF57646B3B7EC07DFB8 /* KVCardSelectionVC */ = {
+			isa = PBXGroup;
+			children = (
+				5684C1ED087A0F38E6E925B313E5BC3E /* DialView.swift */,
+				A6602CD4B820B6413EEF570D3BCA8CC0 /* KVCardSelectionCell.swift */,
+				5C77D5FDB31E93EC57B1AA106DFBABA4 /* KVCardSelectionViewController.swift */,
+				31343898A54C2BBDFC162C1970C9347E /* KVCardSelectionViewController+CollectionView.swift */,
+				2B3DDF0BCB7F83DAD2B3CEF21BBFADA0 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift */,
+				F93324C96C023661BE41971614926A31 /* KVCardSelectionViewFlowLayout.swift */,
+				6377ECB942524148C34AAF8F29FA5581 /* KVFocusedCardView.swift */,
+				C4495F85C15D066079C86209F772C16A /* PointerLayer.swift */,
+				EF48E4641DCD4A1C9CDBD4369D65FEA9 /* ShadowAttributes.swift */,
+				1CAA591BABFCFEF034883D521337B041 /* Resources */,
+				92D4F118DFC1C947B9F0A729295E6429 /* Support Files */,
+			);
+			name = KVCardSelectionVC;
+			path = KVCardSelectionVC;
+			sourceTree = "<group>";
+		};
+		7174D1DEA5B0A24AD7198FEFE2FA02AC /* Try */ = {
+			isa = PBXGroup;
+			children = (
+				427E89739773CE68735835BBA379B002 /* trap.swift */,
+				F4EF42B4535FC43A22BACB878DC79D3C /* WBTry.h */,
+				F974B9EE4295202D65C3C2B80A8CE7A0 /* WBTry.m */,
+				C5732A4E0E11DEB3ECE74089AB1D30EC /* Support Files */,
+			);
+			name = Try;
+			path = Try;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C31AE7B8C397784F4D8A5E526724CF14 /* Frameworks */,
+				B621CFFEF745D99E10C2D0536E5D63D2 /* Pods */,
+				0E2DB5FD58006B5149F46FA374ED0C02 /* Products */,
+				C99B66E8C73AD24688F61098A3EA0353 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92D4F118DFC1C947B9F0A729295E6429 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				189EE9C3E8A56824EB3BD925974EB442 /* Info.plist */,
+				3141419F4FE719694C28CBC39636DA24 /* KVCardSelectionVC.modulemap */,
+				AB12A09474E57BC82A448B09364E642A /* KVCardSelectionVC.xcconfig */,
+				BFC4EFEF63F83F50652CF9C64BA59D1F /* KVCardSelectionVC-dummy.m */,
+				F9A0324F64F77599C7BE4964AF84A3C8 /* KVCardSelectionVC-prefix.pch */,
+				187FA85369366BB3D18CCC0CE3D28020 /* KVCardSelectionVC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVCardSelectionVC";
+			sourceTree = "<group>";
+		};
+		B621CFFEF745D99E10C2D0536E5D63D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18318AEB6294270F886CFF96CC67AF48 /* Kingfisher */,
+				4671220740335DF57646B3B7EC07DFB8 /* KVCardSelectionVC */,
+				7174D1DEA5B0A24AD7198FEFE2FA02AC /* Try */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC74CCD990AFF9586704CEE04046803C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				88D8BA6C69CBAA25C414A1AF9CF991CA /* CFNetwork.framework */,
+				5765AA968DA97EE66C429144B157B3CC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C31AE7B8C397784F4D8A5E526724CF14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D40354F700D2019D61B370E14565B2A5 /* Kingfisher.framework */,
+				0B2BC0550D1E665055B15296B17AE470 /* Try.framework */,
+				BC74CCD990AFF9586704CEE04046803C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5732A4E0E11DEB3ECE74089AB1D30EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3CE7862BAD932E19DB845D51BC09E84 /* Info.plist */,
+				A12B9685E9BEEA42DCC968436D69B346 /* Try.modulemap */,
+				B76B882504418DA61387E4131381B893 /* Try.xcconfig */,
+				6ED9C952464C563A0F7A8586A16784F4 /* Try-dummy.m */,
+				D0AA491AC441B7E3F135A9CEC131041B /* Try-prefix.pch */,
+				C56C482010E895F0F4DF4008AB478B62 /* Try-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Try";
+			sourceTree = "<group>";
+		};
+		C99B66E8C73AD24688F61098A3EA0353 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BCC54F206215E930A942D385058F99D /* Pods-KVCardSelectionVCExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E1B899FBE92527B7C64F4844E15A4D0C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CB9F00296D5CF9334E1D8893AF998A4 /* Info.plist */,
+				3541F6E7FF89DC651C86364F3E1CB1B6 /* Kingfisher.modulemap */,
+				476432EDDC7EB3DD51B166BBE91C7780 /* Kingfisher.xcconfig */,
+				A27ED5AE1F2E116AD18071923CFA1A2D /* Kingfisher-dummy.m */,
+				8D1B1E9D38CA0C130BA6F56369526663 /* Kingfisher-prefix.pch */,
+				16CA004D9EB28F677DE185F8F9246B98 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */,
+				179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B48A9732CEF277E32EF7270B2E7388 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D70AA0C7F9480F5D561A5C16D2B244 /* Pods-KVCardSelectionVCExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981693ED6864CFEFF0A428EC51B918AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0070E531F668D07E44A196D5E2F13B34 /* KVCardSelectionVC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EF12CEBE10B7FDB9277DBF9B2320F6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1510BD0F8CF48683F493D0DC28B2D8E4 /* Try-umbrella.h in Headers */,
+				095CDE8542FB26E91AC65703C45C58C8 /* WBTry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4285678BD59C27FAD9615F4708E32161 /* Try */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE9018EBD6AC0C63200262E47A7C019 /* Build configuration list for PBXNativeTarget "Try" */;
+			buildPhases = (
+				E851E32C972BC7E16CED551C58C44A11 /* Sources */,
+				840198A5A1973323D3D4E274C205FB33 /* Frameworks */,
+				9EF12CEBE10B7FDB9277DBF9B2320F6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Try;
+			productName = Try;
+			productReference = 92BEDDD25CF0C32A1BB2DE0AD3D9023F /* Try.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4944FEC314D1A66588651D006273ADE /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				3373BA776C9A8B1A8637556C47E5AF83 /* Sources */,
+				ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */,
+				0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = 7FE2E51B99197DAFC80780C29F4A548C /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D30B3059572817E65D2A8F09200A049F /* KVCardSelectionVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF05655B1498AFBB5FFCC40368BCD031 /* Build configuration list for PBXNativeTarget "KVCardSelectionVC" */;
+			buildPhases = (
+				7FAEC2C2504770C509CF5BA3C64B80B3 /* Sources */,
+				2C623500EBBD328FA327269D6563F187 /* Frameworks */,
+				8660D6AE024FAC00C990D0724E156BF1 /* Resources */,
+				981693ED6864CFEFF0A428EC51B918AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D55AB6C1B4EDA15BCC04C90147D17940 /* PBXTargetDependency */,
+				0AC7B4E1FEDEEDEF6B30A128490CC798 /* PBXTargetDependency */,
+			);
+			name = KVCardSelectionVC;
+			productName = KVCardSelectionVC;
+			productReference = 28C5B600947E13B4A7DAEF9F8E2CF646 /* KVCardSelectionVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF91205EC2CFEAE3945133588CF51378 /* Pods-KVCardSelectionVCExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0939EC1A77FED8751044392112A98ED /* Build configuration list for PBXNativeTarget "Pods-KVCardSelectionVCExample" */;
+			buildPhases = (
+				93F2B16A6A912ACB09286F918C386C31 /* Sources */,
+				1D31F0DA5A14C216C042F0CDFCF3B5F6 /* Frameworks */,
+				44B48A9732CEF277E32EF7270B2E7388 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5726D803575AAEA6C8D3AA832D7F155 /* PBXTargetDependency */,
+				08B077138A62631C86ED96D91B5D2C26 /* PBXTargetDependency */,
+				E98872085D6845D4580A797CF552270E /* PBXTargetDependency */,
+			);
+			name = "Pods-KVCardSelectionVCExample";
+			productName = "Pods-KVCardSelectionVCExample";
+			productReference = EA38475DA5A5D905D783651F0EA360E0 /* Pods_KVCardSelectionVCExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0E2DB5FD58006B5149F46FA374ED0C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4944FEC314D1A66588651D006273ADE /* Kingfisher */,
+				D30B3059572817E65D2A8F09200A049F /* KVCardSelectionVC */,
+				DF91205EC2CFEAE3945133588CF51378 /* Pods-KVCardSelectionVCExample */,
+				4285678BD59C27FAD9615F4708E32161 /* Try */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8660D6AE024FAC00C990D0724E156BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4956C286F2D7843F0AA7E5456D7A8CCC /* KVCardSelectionCell.xib in Resources */,
+				7E0C352C6923952163C04B829455A5FD /* KVFocusedCardView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3373BA776C9A8B1A8637556C47E5AF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB2F41D6AC3DE89D4CEDD26BCA8AA18 /* AnimatedImageView.swift in Sources */,
+				542ECCCFC91F7A7119FEF23F870A4230 /* Box.swift in Sources */,
+				2F5A5C7AC98FD014FE483F8839C409EE /* CacheSerializer.swift in Sources */,
+				56A3E82290A6858388CB981151E091A5 /* Filter.swift in Sources */,
+				DBE99D60F85AC315A6A72181E3B3FA99 /* Image.swift in Sources */,
+				EB801B4773127C25CB39D2485031F816 /* ImageCache.swift in Sources */,
+				8211B5452C89840FBFC7647359EE75B0 /* ImageDownloader.swift in Sources */,
+				E68C478E9E471F685966CFB71A32A956 /* ImagePrefetcher.swift in Sources */,
+				43D6C3F5F8E90771DEBF166207E60666 /* ImageProcessor.swift in Sources */,
+				3E1D52318F691D53142EF232CA98042F /* ImageTransition.swift in Sources */,
+				BDB9501036883239F767427151681CBF /* ImageView+Kingfisher.swift in Sources */,
+				66140D9E07108FD80E9DEA01FB2FE645 /* Indicator.swift in Sources */,
+				775B87BDA41F8A581D34B7B5DF51AC22 /* Kingfisher-dummy.m in Sources */,
+				F193C5394E96BB3155CF96706D838034 /* Kingfisher.swift in Sources */,
+				C6B4E4BE9E653E719CF1183564335D24 /* KingfisherManager.swift in Sources */,
+				D69B13406807EEA4DC1E8F19D02DF509 /* KingfisherOptionsInfo.swift in Sources */,
+				957C0C65C9B31B64CADD6022BC3DDD58 /* RequrstModifier.swift in Sources */,
+				1A0D743774654C9204D245EE05965AF6 /* Resource.swift in Sources */,
+				7CCF8A451663F39CC166D841C03C4FB2 /* String+MD5.swift in Sources */,
+				576F6097B671FB2BF7759DD54E17D28C /* ThreadHelper.swift in Sources */,
+				40554415DA43CEDDC57474D689EAD99F /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAEC2C2504770C509CF5BA3C64B80B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4578258C134F8A38E0CED7188455293B /* DialView.swift in Sources */,
+				C836DA335510AE95D8223BBA0D0AE054 /* KVCardSelectionCell.swift in Sources */,
+				DD926E7A49BFD9ECCCB3289DF22778E6 /* KVCardSelectionVC-dummy.m in Sources */,
+				4E8607AAEA9A71567CC8C1FF9D062DAC /* KVCardSelectionViewController+CollectionView.swift in Sources */,
+				D953C5619E790A12F6D687EB18697017 /* KVCardSelectionViewController+JFFocusedCardViewDelegate.swift in Sources */,
+				2FE4527878E69AC71373445DD134C6AA /* KVCardSelectionViewController.swift in Sources */,
+				01E3D8D9225BCB3634ED89D35159BC5C /* KVCardSelectionViewFlowLayout.swift in Sources */,
+				F96057DA343E3ADAD51BBFEEDAB544BB /* KVFocusedCardView.swift in Sources */,
+				BF8C46D607B40280C08558CC53A103F9 /* PointerLayer.swift in Sources */,
+				A910991F21C88D706CAFAC235490EC1B /* ShadowAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F2B16A6A912ACB09286F918C386C31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456ECBCCFF2C6D13F2DC514705E6C1BF /* Pods-KVCardSelectionVCExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E851E32C972BC7E16CED551C58C44A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A64EFCBC25D228BFD1A4CDF6DEE1D0 /* trap.swift in Sources */,
+				8FCE3557E50BD484BFE783CA2820D7A1 /* Try-dummy.m in Sources */,
+				3D1E9B7C85FB9003719F2760CD3FA8A6 /* WBTry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B077138A62631C86ED96D91B5D2C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = C4944FEC314D1A66588651D006273ADE /* Kingfisher */;
+			targetProxy = AD9DB4608101DCD385F53268F2736187 /* PBXContainerItemProxy */;
+		};
+		0AC7B4E1FEDEEDEF6B30A128490CC798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Try;
+			target = 4285678BD59C27FAD9615F4708E32161 /* Try */;
+			targetProxy = E5D8FB65A9FB91BE6CC5415EDCFC2E3C /* PBXContainerItemProxy */;
+		};
+		B5726D803575AAEA6C8D3AA832D7F155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVCardSelectionVC;
+			target = D30B3059572817E65D2A8F09200A049F /* KVCardSelectionVC */;
+			targetProxy = D9B9979F53DD91E577CE1A1107671F26 /* PBXContainerItemProxy */;
+		};
+		D55AB6C1B4EDA15BCC04C90147D17940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = C4944FEC314D1A66588651D006273ADE /* Kingfisher */;
+			targetProxy = 95D1196DF22E2E64578B947E991DB7EB /* PBXContainerItemProxy */;
+		};
+		E98872085D6845D4580A797CF552270E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Try;
+			target = 4285678BD59C27FAD9615F4708E32161 /* Try */;
+			targetProxy = 750FEED6AE2C270FE20458E3CA3FE0DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		380C30050278E488BE23DB926933212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476432EDDC7EB3DD51B166BBE91C7780 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41D980BE7D048E798652B87DC6F0CF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76B882504418DA61387E4131381B893 /* Try.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Try/Try-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Try/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Try/Try.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Try;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C70DD5A3ABDC9F735D0B07FBDA963F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB12A09474E57BC82A448B09364E642A /* KVCardSelectionVC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVCardSelectionVC/KVCardSelectionVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVCardSelectionVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVCardSelectionVC/KVCardSelectionVC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KVCardSelectionVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476432EDDC7EB3DD51B166BBE91C7780 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1F0C9EE7DF1BC23B1164A31947EC63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB12A09474E57BC82A448B09364E642A /* KVCardSelectionVC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVCardSelectionVC/KVCardSelectionVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVCardSelectionVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVCardSelectionVC/KVCardSelectionVC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KVCardSelectionVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCC99644F04C2FD2E90CEAB9FA050AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76B882504418DA61387E4131381B893 /* Try.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Try/Try-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Try/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Try/Try.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Try;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAF9D0B3E58E1CB9AEC45A0CFD7951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05615096711D98E816652999592F132 /* Pods-KVCardSelectionVCExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KVCardSelectionVCExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVCardSelectionVCExample/Pods-KVCardSelectionVCExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KVCardSelectionVCExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC28CF5811065D920D62849A4C3FDFD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17FEE2EE3575EF1137F7726E851A5F8D /* Pods-KVCardSelectionVCExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KVCardSelectionVCExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVCardSelectionVCExample/Pods-KVCardSelectionVCExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KVCardSelectionVCExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE9018EBD6AC0C63200262E47A7C019 /* Build configuration list for PBXNativeTarget "Try" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D980BE7D048E798652B87DC6F0CF01 /* Debug */,
+				BCC99644F04C2FD2E90CEAB9FA050AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */,
+				380C30050278E488BE23DB926933212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF05655B1498AFBB5FFCC40368BCD031 /* Build configuration list for PBXNativeTarget "KVCardSelectionVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C70DD5A3ABDC9F735D0B07FBDA963F7 /* Debug */,
+				A1F0C9EE7DF1BC23B1164A31947EC63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0939EC1A77FED8751044392112A98ED /* Build configuration list for PBXNativeTarget "Pods-KVCardSelectionVCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC28CF5811065D920D62849A4C3FDFD4 /* Debug */,
+				EAAF9D0B3E58E1CB9AEC45A0CFD7951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
