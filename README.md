@@ -95,6 +95,10 @@ extension UserSelectionViewController: KVCardSelectionViewControllerDelegate {
             print("----------- \nCard action fired! \nAction Title: \(cardAction.title) \nIndex Path: \(indexPath)")
         }
     }
+    
+    func cardSelectionViewController(_ cardSelectionViewController: KVCardSelectionViewController, didSelectDetailActionForCardAtIndexPath indexPath: IndexPath) {
+        print("CARD SELECTED for \(indexPath)")
+    }
 }
 ```
 
