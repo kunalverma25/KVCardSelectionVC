@@ -146,6 +146,9 @@ extension User: CardPresentable {
 ### Installation
 
 #### CocoaPods
+```
+pod 'KVCardSelectionVC'
+```
 
 #### Example
 Check Example Folder for the same.
