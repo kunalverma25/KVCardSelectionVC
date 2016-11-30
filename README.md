@@ -6,7 +6,6 @@ An updated Swift 3 working version of : https://github.com/atljeremy/JFCardSelec
 What It Looks Like:
 ------------------
 
-![Example](https://dl.dropboxusercontent.com/u/55388810/card_selection_controller.gif)
 ![Example](https://github.com/kunalverma25/KVCardSelectionVC/raw/master/KVVC2.gif)
 
 How To Use It:
@@ -148,6 +147,8 @@ extension User: CardPresentable {
 
 #### CocoaPods
 
+#### Dependencies
+Check Example for the same.
 
 #### Dependencies
 KVCardSelectionVC has dependencies on pod 'Try' and pod 'Kingfisher'
