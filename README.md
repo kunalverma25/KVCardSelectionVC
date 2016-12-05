@@ -11,6 +11,14 @@ What It Looks Like:
 How To Use It:
 -------------
 
+### Compatibility
+iOS 9+
+
+Swift 3.0+
+
+xCode 8.0+
+
+
 ### Basic Example
 
 First create a new class that subclasses `KVCardSelectionViewController`
